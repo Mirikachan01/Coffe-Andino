@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Andino</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Imagen de Fondo -->
+    <div class="hero"></div>
+    <!------------------------------------------------->
+    
+
+    <!-- Sección "Quiénes Somos" -->
+    <section class="quienes-somos">
+        <h1>¿Quiénes somos?</h1>
+        <div class="contenido">
+            <p>En Café Andino, nos apasiona llevar a tu mesa el auténtico sabor del café de altura. Nuestros granos son 100% naturales, cultivados en tierras andinas sin el uso de químicos ni pesticidas, respetando los procesos tradicionales de cosecha y selección.
+
+                Cada taza de nuestro café cuenta una historia de dedicación y calidad. Trabajamos directamente con pequeños productores locales, promoviendo prácticas sostenibles y comercio justo. Nuestra misión es ofrecer un café puro, de aroma inigualable y sabor intenso, que refleje la riqueza de los suelos andinos.
+                
+                Desde el grano hasta la taza, en Café Andino garantizamos un producto fresco, lleno de notas aromáticas únicas y una experiencia sensorial inigualable. ¡Descubre el verdadero café de los Andes!</p>
+            <img src="logo.png" alt="Sobre nosotros">
+        </div>
+
+    </section>
+
+    <!-- Carrusel de Imágenes -->
+   <!-- Botones flotantes -->
+   <!-- Botones flotantes -->
+    <div class="botones-fijos">
+        <button id="verCarrito" class="boton-rojo">🛒 Carrito</button>
+        <button id="pedir" class="boton-verde">Pedir</button>
+    </div>
+
+    <!-- Modal del carrito -->
+    <div id="carritoModal" class="carrito-modal">
+        <h2>Carrito de Compras</h2>
+        <ul id="listaCarrito"></ul>
+        <button id="cerrarCarrito" class="boton-rojo">Cerrar</button>
+    </div>
+    
+
+    <!-- Sección de Productos -->
+    
+    
+  
+    
+
+    <!-- Repite para los demás productos -->
+    <!------------------------------------------------------------------->
+    <section class="productos">
+        <h2>Productos</h2>
+        <div class="grid-productos">
+            <div class="producto">
+                <img src="40.png" alt="Café 1">
+                <h3>Café Clásico</h3>
+                <p>Granos selectos con un sabor balanceado.</p>
+                <button class="ordenar" data-producto="Café Clásico">Ordenar</button>
+            </div>
+            <div class="producto">
+                <img src="33.png" alt="Café 2">
+                <h3>Café Intenso</h3>
+                <p>Sabor fuerte y aroma profundo.</p>
+                <button class="ordenar" data-producto="Café Intenso">Ordenar</button>
+            </div>
+            <div class="producto">
+                <img src="34.png" alt="Café 3">
+                <h3>Café Orgánico</h3>
+                <p>Libre de químicos y 100% natural.</p>
+                <button class="ordenar" data-producto="Café Orgánico">Ordenar</button>
+            </div>
+            <div class="producto">
+                <img src="35.png" alt="Café 4">
+                <h3>Café Espresso</h3>
+                <p>Perfecto para preparar un espresso fuerte.</p>
+                <button class="ordenar" data-producto="Café Espresso">Ordenar</button>
+            </div>
+            <div class="producto">
+                <img src="36.png" alt="Café 5">
+                <h3>Café de Especialidad</h3>
+                <p>Selección premium con notas frutales.</p>
+                <button class="ordenar" data-producto="Café de Especialidad">Ordenar</button>
+            </div>
+            <div class="producto">
+                <img src="37(1).png" alt="Café 6">
+                <h3>Café Molido</h3>
+                <p>Ideal para preparar con métodos filtrados.</p>
+                <button class="ordenar" data-producto="Café Molido">Ordenar</button>
+            </div>
+            <div class="producto">
+                <img src="38.png" alt="Café 7">
+                <h3>Café Descafeinado</h3>
+                <p>Todo el sabor sin la cafeína.</p>
+                <button class="ordenar" data-producto="Café Descafeinado">Ordenar</button>
+            </div>
+            <div class="producto">
+                <img src="39.png" alt="Café 8">
+                <h3>Café Premium</h3>
+                <p>La mejor calidad para los paladares exigentes.</p>
+                <button class="ordenar" data-producto="Café Premium">Ordenar</button>
+            </div>
+        </div>
+    </section>
+    <section class="tabla-nutricional">
+        <h2>Información Nutricional</h2>
+        <table>
+            <tr>
+                <th>Componente</th>
+                <th>Por 100g</th>
+            </tr>
+            <tr>
+                <td>Energía</td>
+                <td>2 kcal</td>
+            </tr>
+            <tr>
+                <td>Proteínas</td>
+                <td>0.2 g</td>
+            </tr>
+            <tr>
+                <td>Grasas</td>
+                <td>0 g</td>
+            </tr>
+            <tr>
+                <td>Carbohidratos</td>
+                <td>0 g</td>
+            </tr>
+            <tr>
+                <td>Azúcares</td>
+                <td>0 g</td>
+            </tr>
+            <tr>
+                <td>Sodio</td>
+                <td>2 mg</td>
+            </tr>
+            <tr>
+                <td>Fibra</td>
+                <td>0 g</td>
+            </tr>
+            <tr>
+                <td>Cafeína</td>
+                <td>40 mg</td>
+            </tr>
+        </table>
+    </section>
+    
+</body>
+</html>
